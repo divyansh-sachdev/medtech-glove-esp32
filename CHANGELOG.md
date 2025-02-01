@@ -1,0 +1,1 @@
+- **2025-02-01 21:32:23**: test: benchmark inference execution speed on ESP32 dual-core
