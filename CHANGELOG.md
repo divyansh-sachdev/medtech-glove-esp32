@@ -1,3 +1,4 @@
 - **2025-02-01 21:32:23**: test: benchmark inference execution speed on ESP32 dual-core
 - **2025-02-03 10:09:50**: fix: handle edge case timeout in sensor initialization loop
 - **2025-02-04 10:26:14**: fix: resolve floating point conversion precision issue
+- **2025-02-05 14:51:46**: refactor: modularize signal processing functions into separate header
