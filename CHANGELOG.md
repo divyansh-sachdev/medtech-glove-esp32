@@ -3,3 +3,4 @@
 - **2025-02-04 10:26:14**: fix: resolve floating point conversion precision issue
 - **2025-02-05 14:51:46**: refactor: modularize signal processing functions into separate header
 - **2025-02-05 19:18:44**: test: verify timer interrupt latency under heavy load
+- **2025-02-06 19:31:22**: docs: document serial protocol packet structure and error codes
