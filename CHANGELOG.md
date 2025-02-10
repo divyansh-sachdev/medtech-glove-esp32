@@ -5,3 +5,4 @@
 - **2025-02-05 19:18:44**: test: verify timer interrupt latency under heavy load
 - **2025-02-06 19:31:22**: docs: document serial protocol packet structure and error codes
 - **2025-02-07 18:34:13**: feat: implement low-power light sleep mode during idle intervals
+- **2025-02-10 15:39:38**: feat: add dynamic threshold adaptation for environmental drift
