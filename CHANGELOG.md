@@ -6,3 +6,4 @@
 - **2025-02-06 19:31:22**: docs: document serial protocol packet structure and error codes
 - **2025-02-07 18:34:13**: feat: implement low-power light sleep mode during idle intervals
 - **2025-02-10 15:39:38**: feat: add dynamic threshold adaptation for environmental drift
+- **2025-02-11 16:34:25**: feat: add dynamic threshold adaptation for environmental drift
