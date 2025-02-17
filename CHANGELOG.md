@@ -11,3 +11,4 @@
 - **2025-02-13 11:08:44**: feat: add visual status LED pulse code for diagnostic mode
 - **2025-02-14 10:15:34**: fix: handle edge case timeout in sensor initialization loop
 - **2025-02-17 14:17:28**: fix: calibrate baseline sensor offset against reference multimeter
+- **2025-02-17 15:08:47**: perf: tune I2C bus frequency to 400kHz for sensor polling
