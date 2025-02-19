@@ -14,3 +14,4 @@
 - **2025-02-17 15:08:47**: perf: tune I2C bus frequency to 400kHz for sensor polling
 - **2025-02-17 20:47:41**: docs: document serial protocol packet structure and error codes
 - **2025-02-19 11:43:14**: test: benchmark inference execution speed on ESP32 dual-core
+- **2025-02-19 20:10:21**: test: benchmark inference execution speed on ESP32 dual-core
