@@ -17,3 +17,4 @@
 - **2025-02-19 20:10:21**: test: benchmark inference execution speed on ESP32 dual-core
 - **2025-02-21 18:47:47**: docs: document serial protocol packet structure and error codes
 - **2025-02-21 21:38:30**: perf: tune FreeRTOS task priority to eliminate frame drops
+- **2025-02-23 18:13:29**: fix: handle edge case timeout in sensor initialization loop
