@@ -21,3 +21,4 @@
 - **2025-02-24 20:18:42**: refactor: modularize signal processing functions into separate header
 - **2025-02-24 21:11:14**: feat: add dynamic threshold adaptation for environmental drift
 - **2025-02-28 14:21:17**: perf: optimize memory footprint by reducing ring buffer depth
+- **2025-02-28 20:05:45**: refactor: clean up debug logs and serial telemetry
