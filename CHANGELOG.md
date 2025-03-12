@@ -23,3 +23,4 @@
 - **2025-02-28 14:21:17**: perf: optimize memory footprint by reducing ring buffer depth
 - **2025-02-28 20:05:45**: refactor: clean up debug logs and serial telemetry
 - **2025-03-11 17:18:25**: docs: update README setup instructions and dependencies
+- **2025-03-12 20:31:49**: refactor: simplify state machine transition logic
