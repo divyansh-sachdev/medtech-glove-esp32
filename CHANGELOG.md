@@ -27,3 +27,4 @@
 - **2025-03-18 15:06:22**: docs: add circuit wiring pinout and power consumption profile
 - **2025-03-18 17:24:24**: fix: calibrate baseline sensor offset against reference multimeter
 - **2025-03-19 11:54:27**: feat: add hardware failsafe watchdog timer routine
+- **2025-03-19 17:46:42**: docs: add circuit wiring pinout and power consumption profile
