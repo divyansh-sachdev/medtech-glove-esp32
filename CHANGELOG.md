@@ -29,3 +29,4 @@
 - **2025-03-19 11:54:27**: feat: add hardware failsafe watchdog timer routine
 - **2025-03-19 17:46:42**: docs: add circuit wiring pinout and power consumption profile
 - **2025-03-20 16:16:47**: docs: document serial protocol packet structure and error codes
+- **2025-03-20 17:06:17**: docs: clarify licensing and hardware bill of materials
