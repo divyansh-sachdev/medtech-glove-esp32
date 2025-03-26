@@ -31,3 +31,4 @@
 - **2025-03-20 16:16:47**: docs: document serial protocol packet structure and error codes
 - **2025-03-20 17:06:17**: docs: clarify licensing and hardware bill of materials
 - **2025-03-25 11:47:31**: refactor: clean up debug logs and serial telemetry
+- **2025-03-26 20:24:36**: perf: tune I2C bus frequency to 400kHz for sensor polling
