@@ -33,3 +33,4 @@
 - **2025-03-25 11:47:31**: refactor: clean up debug logs and serial telemetry
 - **2025-03-26 20:24:36**: perf: tune I2C bus frequency to 400kHz for sensor polling
 - **2025-03-29 16:23:23**: perf: optimize memory footprint by reducing ring buffer depth
+- **2025-03-30 19:33:38**: refactor: modularize signal processing functions into separate header
