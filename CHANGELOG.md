@@ -35,3 +35,4 @@
 - **2025-03-29 16:23:23**: perf: optimize memory footprint by reducing ring buffer depth
 - **2025-03-30 19:33:38**: refactor: modularize signal processing functions into separate header
 - **2025-03-30 21:46:30**: test: validate thermal stability over continuous 6-hour test run
+- **2025-04-02 11:23:42**: fix: prevent buffer underflow during rapid sensor reads
