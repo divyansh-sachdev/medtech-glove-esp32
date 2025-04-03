@@ -37,3 +37,4 @@
 - **2025-03-30 21:46:30**: test: validate thermal stability over continuous 6-hour test run
 - **2025-04-02 11:23:42**: fix: prevent buffer underflow during rapid sensor reads
 - **2025-04-02 15:48:29**: fix: prevent buffer underflow during rapid sensor reads
+- **2025-04-03 14:06:12**: perf: tune I2C bus frequency to 400kHz for sensor polling
