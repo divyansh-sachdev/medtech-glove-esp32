@@ -41,3 +41,4 @@
 - **2025-04-07 11:54:37**: docs: add circuit wiring pinout and power consumption profile
 - **2025-04-08 20:34:13**: refactor: clean up debug logs and serial telemetry
 - **2025-04-09 18:40:38**: feat: add EEPROM configuration persistence for user settings
+- **2025-04-09 21:51:42**: docs: clarify licensing and hardware bill of materials
