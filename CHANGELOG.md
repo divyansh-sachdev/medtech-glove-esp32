@@ -40,3 +40,4 @@
 - **2025-04-03 14:06:12**: perf: tune I2C bus frequency to 400kHz for sensor polling
 - **2025-04-07 11:54:37**: docs: add circuit wiring pinout and power consumption profile
 - **2025-04-08 20:34:13**: refactor: clean up debug logs and serial telemetry
+- **2025-04-09 18:40:38**: feat: add EEPROM configuration persistence for user settings
