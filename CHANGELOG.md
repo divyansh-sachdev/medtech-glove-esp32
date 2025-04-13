@@ -42,3 +42,4 @@
 - **2025-04-08 20:34:13**: refactor: clean up debug logs and serial telemetry
 - **2025-04-09 18:40:38**: feat: add EEPROM configuration persistence for user settings
 - **2025-04-09 21:51:42**: docs: clarify licensing and hardware bill of materials
+- **2025-04-13 11:50:28**: test: validate thermal stability over continuous 6-hour test run
