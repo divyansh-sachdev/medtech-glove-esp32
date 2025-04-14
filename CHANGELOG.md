@@ -44,3 +44,4 @@
 - **2025-04-09 21:51:42**: docs: clarify licensing and hardware bill of materials
 - **2025-04-13 11:50:28**: test: validate thermal stability over continuous 6-hour test run
 - **2025-04-14 15:09:36**: docs: document serial protocol packet structure and error codes
+- **2025-04-14 15:29:19**: refactor: clean up debug logs and serial telemetry
