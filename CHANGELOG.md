@@ -46,3 +46,4 @@
 - **2025-04-14 15:09:36**: docs: document serial protocol packet structure and error codes
 - **2025-04-14 15:29:19**: refactor: clean up debug logs and serial telemetry
 - **2025-04-15 21:49:11**: feat: implement low-power light sleep mode during idle intervals
+- **2025-04-18 17:24:34**: refactor: clean up debug logs and serial telemetry
