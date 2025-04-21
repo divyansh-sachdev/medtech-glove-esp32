@@ -48,3 +48,4 @@
 - **2025-04-15 21:49:11**: feat: implement low-power light sleep mode during idle intervals
 - **2025-04-18 17:24:34**: refactor: clean up debug logs and serial telemetry
 - **2025-04-21 18:36:11**: docs: update README setup instructions and dependencies
+- **2025-04-21 19:19:27**: fix: resolve floating point conversion precision issue
