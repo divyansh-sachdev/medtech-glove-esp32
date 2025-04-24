@@ -53,3 +53,4 @@
 - **2025-04-22 19:13:49**: refactor: clean up debug logs and serial telemetry
 - **2025-04-22 20:06:35**: refactor: clean up debug logs and serial telemetry
 - **2025-04-23 14:34:21**: docs: clarify licensing and hardware bill of materials
+- **2025-04-24 16:53:36**: feat: implement moving average filter for noise suppression
