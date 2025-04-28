@@ -57,3 +57,4 @@
 - **2025-04-24 17:26:34**: docs: clarify licensing and hardware bill of materials
 - **2025-04-25 19:06:44**: feat: implement low-power light sleep mode during idle intervals
 - **2025-04-26 15:46:14**: feat: add dynamic threshold adaptation for environmental drift
+- **2025-04-28 21:14:25**: feat: add visual status LED pulse code for diagnostic mode
