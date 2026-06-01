@@ -59,3 +59,4 @@
 - **2025-04-26 15:46:14**: feat: add dynamic threshold adaptation for environmental drift
 - **2025-04-28 21:14:25**: feat: add visual status LED pulse code for diagnostic mode
 - **2025-04-29 17:15:48**: fix: prevent buffer underflow during rapid sensor reads
+- **2026-06-01 11:48:24**: feat: add visual status LED pulse code for diagnostic mode
