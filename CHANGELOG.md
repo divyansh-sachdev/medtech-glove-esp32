@@ -61,3 +61,4 @@
 - **2025-04-29 17:15:48**: fix: prevent buffer underflow during rapid sensor reads
 - **2026-06-01 11:48:24**: feat: add visual status LED pulse code for diagnostic mode
 - **2026-06-02 18:12:44**: refactor: clean up debug logs and serial telemetry
+- **2026-06-03 16:14:14**: refactor: modularize signal processing functions into separate header
