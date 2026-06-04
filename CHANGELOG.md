@@ -62,3 +62,4 @@
 - **2026-06-01 11:48:24**: feat: add visual status LED pulse code for diagnostic mode
 - **2026-06-02 18:12:44**: refactor: clean up debug logs and serial telemetry
 - **2026-06-03 16:14:14**: refactor: modularize signal processing functions into separate header
+- **2026-06-04 16:33:17**: feat: add dynamic threshold adaptation for environmental drift
