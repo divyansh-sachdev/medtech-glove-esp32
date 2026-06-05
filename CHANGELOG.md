@@ -64,3 +64,4 @@
 - **2026-06-03 16:14:14**: refactor: modularize signal processing functions into separate header
 - **2026-06-04 16:33:17**: feat: add dynamic threshold adaptation for environmental drift
 - **2026-06-04 21:52:46**: docs: document serial protocol packet structure and error codes
+- **2026-06-05 20:36:38**: docs: update README setup instructions and dependencies
