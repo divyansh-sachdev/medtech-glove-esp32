@@ -65,3 +65,4 @@
 - **2026-06-04 16:33:17**: feat: add dynamic threshold adaptation for environmental drift
 - **2026-06-04 21:52:46**: docs: document serial protocol packet structure and error codes
 - **2026-06-05 20:36:38**: docs: update README setup instructions and dependencies
+- **2026-06-06 18:52:30**: fix: resolve floating point conversion precision issue
