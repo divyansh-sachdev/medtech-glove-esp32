@@ -68,3 +68,4 @@
 - **2026-06-06 18:52:30**: fix: resolve floating point conversion precision issue
 - **2026-06-10 19:38:38**: refactor: modularize signal processing functions into separate header
 - **2026-06-12 11:35:32**: fix: calibrate baseline sensor offset against reference multimeter
+- **2026-06-12 18:26:30**: docs: document serial protocol packet structure and error codes
