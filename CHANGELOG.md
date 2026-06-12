@@ -67,3 +67,4 @@
 - **2026-06-05 20:36:38**: docs: update README setup instructions and dependencies
 - **2026-06-06 18:52:30**: fix: resolve floating point conversion precision issue
 - **2026-06-10 19:38:38**: refactor: modularize signal processing functions into separate header
+- **2026-06-12 11:35:32**: fix: calibrate baseline sensor offset against reference multimeter
