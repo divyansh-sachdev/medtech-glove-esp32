@@ -70,3 +70,4 @@
 - **2026-06-12 11:35:32**: fix: calibrate baseline sensor offset against reference multimeter
 - **2026-06-12 18:26:30**: docs: document serial protocol packet structure and error codes
 - **2026-06-15 11:25:26**: refactor: simplify state machine transition logic
+- **2026-06-16 20:05:44**: feat: add hardware failsafe watchdog timer routine
