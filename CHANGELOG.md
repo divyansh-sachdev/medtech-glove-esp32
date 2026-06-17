@@ -71,3 +71,4 @@
 - **2026-06-12 18:26:30**: docs: document serial protocol packet structure and error codes
 - **2026-06-15 11:25:26**: refactor: simplify state machine transition logic
 - **2026-06-16 20:05:44**: feat: add hardware failsafe watchdog timer routine
+- **2026-06-17 19:53:13**: fix: resolve floating point conversion precision issue
