@@ -76,3 +76,4 @@
 - **2026-06-18 19:12:11**: feat: add hardware failsafe watchdog timer routine
 - **2026-06-19 20:31:15**: perf: tune FreeRTOS task priority to eliminate frame drops
 - **2026-06-22 20:14:34**: feat: implement low-power light sleep mode during idle intervals
+- **2026-06-23 20:52:18**: fix: calibrate baseline sensor offset against reference multimeter
