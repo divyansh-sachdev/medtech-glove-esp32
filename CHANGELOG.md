@@ -77,3 +77,4 @@
 - **2026-06-19 20:31:15**: perf: tune FreeRTOS task priority to eliminate frame drops
 - **2026-06-22 20:14:34**: feat: implement low-power light sleep mode during idle intervals
 - **2026-06-23 20:52:18**: fix: calibrate baseline sensor offset against reference multimeter
+- **2026-06-24 16:51:29**: feat: implement moving average filter for noise suppression
