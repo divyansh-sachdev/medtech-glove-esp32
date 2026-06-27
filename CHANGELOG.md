@@ -81,3 +81,4 @@
 - **2026-06-26 17:40:44**: docs: clarify licensing and hardware bill of materials
 - **2026-06-26 19:14:38**: feat: implement low-power light sleep mode during idle intervals
 - **2026-06-27 15:49:25**: docs: update README setup instructions and dependencies
+- **2026-06-27 21:29:24**: refactor: clean up debug logs and serial telemetry
