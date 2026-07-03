@@ -84,3 +84,4 @@
 - **2026-06-27 21:29:24**: refactor: clean up debug logs and serial telemetry
 - **2026-06-29 19:50:34**: feat: add hardware failsafe watchdog timer routine
 - **2026-06-30 14:37:47**: docs: update README setup instructions and dependencies
+- **2026-07-03 18:46:19**: test: benchmark inference execution speed on ESP32 dual-core
