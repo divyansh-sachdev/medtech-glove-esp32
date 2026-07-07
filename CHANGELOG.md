@@ -86,3 +86,4 @@
 - **2026-06-30 14:37:47**: docs: update README setup instructions and dependencies
 - **2026-07-03 18:46:19**: test: benchmark inference execution speed on ESP32 dual-core
 - **2026-07-06 18:11:50**: perf: tune I2C bus frequency to 400kHz for sensor polling
+- **2026-07-07 19:15:29**: feat: add EEPROM configuration persistence for user settings
