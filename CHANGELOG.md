@@ -87,3 +87,4 @@
 - **2026-07-03 18:46:19**: test: benchmark inference execution speed on ESP32 dual-core
 - **2026-07-06 18:11:50**: perf: tune I2C bus frequency to 400kHz for sensor polling
 - **2026-07-07 19:15:29**: feat: add EEPROM configuration persistence for user settings
+- **2026-07-10 20:31:46**: feat: add dynamic threshold adaptation for environmental drift
