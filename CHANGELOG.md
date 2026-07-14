@@ -88,3 +88,4 @@
 - **2026-07-06 18:11:50**: perf: tune I2C bus frequency to 400kHz for sensor polling
 - **2026-07-07 19:15:29**: feat: add EEPROM configuration persistence for user settings
 - **2026-07-10 20:31:46**: feat: add dynamic threshold adaptation for environmental drift
+- **2026-07-14 10:34:28**: docs: clarify licensing and hardware bill of materials
