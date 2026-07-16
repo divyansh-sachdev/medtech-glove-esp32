@@ -89,3 +89,4 @@
 - **2026-07-07 19:15:29**: feat: add EEPROM configuration persistence for user settings
 - **2026-07-10 20:31:46**: feat: add dynamic threshold adaptation for environmental drift
 - **2026-07-14 10:34:28**: docs: clarify licensing and hardware bill of materials
+- **2026-07-16 11:20:34**: fix: handle edge case timeout in sensor initialization loop
