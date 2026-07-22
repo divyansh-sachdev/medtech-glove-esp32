@@ -91,3 +91,4 @@
 - **2026-07-14 10:34:28**: docs: clarify licensing and hardware bill of materials
 - **2026-07-16 11:20:34**: fix: handle edge case timeout in sensor initialization loop
 - **2026-07-16 15:29:40**: refactor: optimize ADC sampling window and reduce jitter
+- **2026-07-22 15:45:22**: perf: optimize memory footprint by reducing ring buffer depth
