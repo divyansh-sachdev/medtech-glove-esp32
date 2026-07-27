@@ -94,3 +94,4 @@
 - **2026-07-22 15:45:22**: perf: optimize memory footprint by reducing ring buffer depth
 - **2026-07-23 10:24:38**: docs: document serial protocol packet structure and error codes
 - **2026-07-25 20:28:43**: feat: add EEPROM configuration persistence for user settings
+- **2026-07-27 16:35:28**: feat: add EEPROM configuration persistence for user settings
