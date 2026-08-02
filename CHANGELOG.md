@@ -96,3 +96,4 @@
 - **2026-07-25 20:28:43**: feat: add EEPROM configuration persistence for user settings
 - **2026-07-27 16:35:28**: feat: add EEPROM configuration persistence for user settings
 - **2026-07-30 20:28:15**: docs: clarify licensing and hardware bill of materials
+- **2026-08-02 19:06:49**: test: benchmark inference execution speed on ESP32 dual-core
