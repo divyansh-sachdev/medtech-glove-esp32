@@ -99,3 +99,4 @@
 - **2026-08-02 19:06:49**: test: benchmark inference execution speed on ESP32 dual-core
 - **2026-08-04 15:46:14**: fix: resolve floating point conversion precision issue
 - **2026-08-05 16:36:17**: fix: handle edge case timeout in sensor initialization loop
+- **2026-08-06 14:29:39**: refactor: clean up debug logs and serial telemetry
