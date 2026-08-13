@@ -104,3 +104,4 @@
 - **2026-08-06 18:42:19**: feat: add dynamic threshold adaptation for environmental drift
 - **2026-08-10 10:49:33**: refactor: modularize signal processing functions into separate header
 - **2026-08-10 15:33:38**: feat: add EEPROM configuration persistence for user settings
+- **2026-08-13 15:12:39**: feat: add dynamic threshold adaptation for environmental drift
