@@ -107,3 +107,4 @@
 - **2026-08-13 15:12:39**: feat: add dynamic threshold adaptation for environmental drift
 - **2026-08-14 21:06:13**: feat: implement low-power light sleep mode during idle intervals
 - **2026-08-18 10:22:19**: docs: document serial protocol packet structure and error codes
+- **2026-08-18 15:19:31**: refactor: simplify state machine transition logic
