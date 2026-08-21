@@ -108,3 +108,4 @@
 - **2026-08-14 21:06:13**: feat: implement low-power light sleep mode during idle intervals
 - **2026-08-18 10:22:19**: docs: document serial protocol packet structure and error codes
 - **2026-08-18 15:19:31**: refactor: simplify state machine transition logic
+- **2026-08-21 15:42:30**: test: validate thermal stability over continuous 6-hour test run
