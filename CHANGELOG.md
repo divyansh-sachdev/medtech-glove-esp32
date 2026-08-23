@@ -110,3 +110,4 @@
 - **2026-08-18 15:19:31**: refactor: simplify state machine transition logic
 - **2026-08-21 15:42:30**: test: validate thermal stability over continuous 6-hour test run
 - **2026-08-22 11:35:38**: docs: update README setup instructions and dependencies
+- **2026-08-23 20:24:39**: perf: optimize memory footprint by reducing ring buffer depth
