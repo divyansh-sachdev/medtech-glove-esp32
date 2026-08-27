@@ -112,3 +112,4 @@
 - **2026-08-22 11:35:38**: docs: update README setup instructions and dependencies
 - **2026-08-23 20:24:39**: perf: optimize memory footprint by reducing ring buffer depth
 - **2026-08-26 17:43:19**: feat: implement low-power light sleep mode during idle intervals
+- **2026-08-27 20:50:30**: docs: clarify licensing and hardware bill of materials
