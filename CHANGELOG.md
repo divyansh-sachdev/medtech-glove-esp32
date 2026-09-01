@@ -115,3 +115,4 @@
 - **2026-08-27 20:50:30**: docs: clarify licensing and hardware bill of materials
 - **2026-08-27 21:45:47**: refactor: simplify state machine transition logic
 - **2026-08-28 20:23:39**: docs: clarify licensing and hardware bill of materials
+- **2026-09-01 18:33:24**: feat: implement low-power light sleep mode during idle intervals
