@@ -118,3 +118,4 @@
 - **2026-09-01 18:33:24**: feat: implement low-power light sleep mode during idle intervals
 - **2026-09-02 17:32:30**: fix: calibrate baseline sensor offset against reference multimeter
 - **2026-09-02 18:31:16**: test: verify timer interrupt latency under heavy load
+- **2026-09-03 11:10:15**: docs: clarify licensing and hardware bill of materials
