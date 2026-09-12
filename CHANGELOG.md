@@ -124,3 +124,4 @@
 - **2026-09-10 16:49:29**: fix: handle edge case timeout in sensor initialization loop
 - **2026-09-10 17:27:10**: docs: clarify licensing and hardware bill of materials
 - **2026-09-12 10:10:43**: docs: document serial protocol packet structure and error codes
+- **2026-09-12 15:29:36**: feat: implement low-power light sleep mode during idle intervals
