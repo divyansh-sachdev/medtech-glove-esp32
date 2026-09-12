@@ -123,3 +123,4 @@
 - **2026-09-05 18:27:37**: test: verify timer interrupt latency under heavy load
 - **2026-09-10 16:49:29**: fix: handle edge case timeout in sensor initialization loop
 - **2026-09-10 17:27:10**: docs: clarify licensing and hardware bill of materials
+- **2026-09-12 10:10:43**: docs: document serial protocol packet structure and error codes
