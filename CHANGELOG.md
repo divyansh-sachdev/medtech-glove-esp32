@@ -125,3 +125,4 @@
 - **2026-09-10 17:27:10**: docs: clarify licensing and hardware bill of materials
 - **2026-09-12 10:10:43**: docs: document serial protocol packet structure and error codes
 - **2026-09-12 15:29:36**: feat: implement low-power light sleep mode during idle intervals
+- **2026-09-13 14:15:49**: test: verify timer interrupt latency under heavy load
