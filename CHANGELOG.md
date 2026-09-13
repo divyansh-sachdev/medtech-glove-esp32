@@ -126,3 +126,4 @@
 - **2026-09-12 10:10:43**: docs: document serial protocol packet structure and error codes
 - **2026-09-12 15:29:36**: feat: implement low-power light sleep mode during idle intervals
 - **2026-09-13 14:15:49**: test: verify timer interrupt latency under heavy load
+- **2026-09-13 17:54:46**: docs: document serial protocol packet structure and error codes
