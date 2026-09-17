@@ -130,3 +130,4 @@
 - **2026-09-13 21:10:13**: refactor: simplify state machine transition logic
 - **2026-09-14 16:33:37**: perf: tune I2C bus frequency to 400kHz for sensor polling
 - **2026-09-17 10:05:23**: perf: tune FreeRTOS task priority to eliminate frame drops
+- **2026-09-17 16:18:18**: perf: tune I2C bus frequency to 400kHz for sensor polling
