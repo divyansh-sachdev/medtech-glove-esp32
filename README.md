@@ -1,8 +1,44 @@
+<div align="center">
+
 # MedTech Glove (ESP32)
 
-IoT wearable glove that monitors body vitals remotely: heart rate (BPM), blood oxygen (SpO2) and a single-lead ECG, streamed over WiFi to a live browser dashboard.
+**IoT wearable glove streaming BPM, SpO&#8322; and single-lead ECG to a live browser dashboard**
 
-This is a rebuild of the original project firmware after the source files were lost to a hard disk failure. The sensor choices below are the standard modules for this kind of build.
+![Domain](https://img.shields.io/badge/Domain-Biomedical_Signal_Processing-00F3FF?style=for-the-badge) ![Platform](https://img.shields.io/badge/Platform-ESP32_+_WiFi-9D00FF?style=for-the-badge) ![Interface](https://img.shields.io/badge/Interface-Web_Dashboard-0066FF?style=for-the-badge)
+
+![ESP32](https://img.shields.io/badge/ESP32-0D1117?style=flat-square&logo=espressif&logoColor=white) ![Arduino](https://img.shields.io/badge/Arduino-0D1117?style=flat-square&logo=arduino&logoColor=white) ![C++](https://img.shields.io/badge/C++-0D1117?style=flat-square&logo=cplusplus&logoColor=white) ![MAX30102](https://img.shields.io/badge/MAX30102-0D1117?style=flat-square) ![AD8232](https://img.shields.io/badge/AD8232-0D1117?style=flat-square) ![HTTP_JSON](https://img.shields.io/badge/HTTP_JSON-0D1117?style=flat-square)
+
+</div>
+
+---
+
+## Overview
+
+A wearable glove that measures three vitals at once — heart rate and blood oxygen from a fingertip PPG
+sensor, plus a single-lead ECG trace — and serves them over WiFi to any browser on the local network.
+The device is its own web server: no app to install, no cloud account, no external dependency.
+
+This is a rebuild of the original project firmware after the source files were lost to a hard disk
+failure. The sensor choices below are the standard modules for this class of build.
+
+## Domain &amp; Techniques
+
+| Layer | Implementation |
+| :--- | :--- |
+| **PPG Processing** | MAX30102 red/IR channels fill a 100-sample rolling window; the Maxim SpO&#8322; algorithm re-estimates heart rate and oxygen saturation every 25 new samples |
+| **ECG Acquisition** | AD8232 output sampled at 250 Hz into a 2-second ring buffer for continuous waveform streaming |
+| **Validity Gating** | Finger-presence detection on the PPG path and lead-off detection on the ECG path mark readings invalid rather than emitting garbage |
+| **Telemetry** | On-device HTTP server exposes a live dashboard plus `/vitals` and `/ecg` JSON endpoints for external consumers |
+
+## Pipeline
+
+```
+MAX30102 (red + IR)  ---> 100-sample window ---> Maxim SpO2 algorithm ---> BPM, SpO2
+                                                        |
+AD8232 (single lead) ---> 250 Hz ring buffer -----------+---> ESP32 HTTP server
+                                                                 |
+                                            /  (dashboard)  /vitals  /ecg  (JSON)
+```
 
 ## Hardware
 
@@ -25,21 +61,37 @@ This is a rebuild of the original project firmware after the source files were l
 
 Power both sensors from 3.3V.
 
-## How it works
+## API
 
-- **BPM + SpO2**: red and IR samples from the MAX30102 fill a 100-sample window; the Maxim algorithm estimates heart rate and SpO2, re-running every 25 new samples. Readings are marked invalid when no finger is detected.
-- **ECG**: the AD8232 output is sampled at 250 Hz into a 2 second ring buffer. The lead-off pins flag when electrodes aren't making contact.
-- **Remote monitoring**: the ESP32 runs a web server on the local network.
-  - `/` live dashboard (BPM, SpO2, ECG trace)
-  - `/vitals` JSON: `bpm`, `spo2`, validity flags, finger/lead status
-  - `/ecg` JSON: latest ECG samples
+| Endpoint | Returns |
+| --- | --- |
+| `/` | Live dashboard (BPM, SpO2, ECG trace) |
+| `/vitals` | JSON: `bpm`, `spo2`, validity flags, finger/lead status |
+| `/ecg` | JSON: latest ECG samples |
 
-## Setup
+## Repository Layout
 
-1. Install the **SparkFun MAX3010x Pulse and Proximity Sensor Library** in the Arduino IDE.
-2. Copy `config.example.h` to `config.h` and set your WiFi name and password.
-3. Select your ESP32 board, upload, and open the Serial Monitor at 115200 baud to get the dashboard IP.
+| Path | Purpose |
+| :--- | :--- |
+| `MedTechGlove.ino` | Main firmware — sensor polling, algorithm dispatch, web server |
+| `config.example.h` | WiFi credentials and tuning constants — copy to `config.h` |
 
-## Disclaimer
+## Project Status
 
-Prototype for research and competition use. Not a certified medical device and not for diagnosis.
+**Implemented:** PPG heart rate and SpO&#8322; estimation, 250 Hz ECG capture, validity gating, live
+WiFi dashboard with JSON endpoints.
+
+**Roadmap:** on-device arrhythmia flagging from the ECG buffer, and persistent logging to SPIFFS so a
+session survives a power cycle.
+
+> Research prototype. Not a certified medical device.
+
+---
+
+<div align="center">
+  <sub>
+    Part of the <b>AI + Robotics</b> engineering portfolio of
+    <a href="https://github.com/divyansh-sachdev">Divyansh Sachdev</a><br>
+    90+ national &amp; international competition wins &middot; IIT / NIT / IIIT podiums
+  </sub>
+</div>
